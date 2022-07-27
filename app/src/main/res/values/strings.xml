@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">assignment1</string>
+    <string name="please_enter_password">enter password</string>
+    <string name="please_enter_name">enter name</string>
+    <string name="login_successfully">login succesfully</string>
+    <string name="enter_your_name">name </string>
+    <string name="enter_email">email</string>
+    <string name="enter_your_ph.no">ph.no</string>
+    <string name="enter_password">password</string>
+    <string name="enter_gender">gender</string>
+    <string name="enter_name">enter name</string>
+</resources>
