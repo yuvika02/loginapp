@@ -4,4 +4,5 @@
     <item name="etPassword" type="id">password</item>
     <item name="tvForgotPassword" type="id">forgotpassword</item>
     <item name="btnLogin" type="id">login</item>
+    <item name="etOtherName" type="id">othername</item>
 </resources>

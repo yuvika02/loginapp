@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
 
-    <LinearLayout
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:padding="20dp">
+        android:text="LOGIN"
+        android:textsize="25sp"
+        android:padding="20dp"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -90,39 +96,30 @@
             app:drawableTint="@color/black" />
 
         <RadioGroup
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/rgGender"
             android:orientation="horizontal">
 
             <RadioButton
                 android:id="@+id/rbShe"
-                android:layout_width="153dp"
+                android:layout_width="wrap_content"
                 android:layout_height="54dp"
                 android:text="@string/She"
-                android:weight="2" />
+                android:weight="1" />
             <RadioButton
-                android:layout_width="Wrap_content"
-                android:layout_height="Wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/rbHe"
-                android:weight="2"
+                android:weight="1"
                 android:text="@string/He"/>
             <RadioButton
-                android:layout_width="Wrap_content"
-                android:layout_height="Wrap_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:id="@+id/rbOthers"
-                android:weight="2"
+                android:weight="1"
                 android:text="@string/others"/>
         </RadioGroup>
-
-    </LinearLayout>
-
-    <LinearLayout
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:orientation="vertical">
-
 
         <Button
             android:id="@+id/Button"
@@ -130,6 +127,7 @@
             android:layout_height="match_parent"
             android:text="sign_in"
             android:layout_gravity="center"
-            tools:ignore="InvalidId" />
-    </LinearLayout>
+             />
+
 </LinearLayout>
+</ScrollView>
