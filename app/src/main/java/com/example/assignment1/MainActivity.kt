@@ -30,10 +30,7 @@ class MainActivity : AppCompatActivity() {
         rbOther = findViewById(R.id.rbOthers)
         rgGender = findViewById(R.id.rgGender)
 
-            Toast.makeText(this, resources.getString(R.string.login_successfully), Toast.LENGTH_LONG).show()
-            var intent = Intent(this,logininfo::class.java)
-            startActivity(intent)
-            finish()
+
 
         etPassword.doOnTextChanged { text, _, _, _ ->
             if ((text?.length ?: 0) < 6) {
@@ -86,8 +83,9 @@ class MainActivity : AppCompatActivity() {
 
             }
         }
-
-
-
+        Toast.makeText(this, resources.getString(R.string.login_successfully), Toast.LENGTH_LONG).show()
+        var intent = Intent(this,logininfo::class.java)
+        startActivity(intent)
+        finish()
     }
 }
