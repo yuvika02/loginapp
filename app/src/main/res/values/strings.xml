@@ -7,7 +7,10 @@
     <string name="enter_email">email</string>
     <string name="enter_your_ph.no">ph.no</string>
     <string name="enter_password">password</string>
+    <string name="She"> she</string>
+    <string name="He">he</string>
     <string name="enter_gender">gender</string>
     <string name="enter_name">enter name</string>
     <string name="Others">others</string>
+    <string name="OtherName">OtherName</string>
 </resources>

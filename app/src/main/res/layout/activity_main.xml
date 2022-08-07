@@ -32,8 +32,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="text"
-        android:textcolor="@color/black"
-        android:id="@+id/activity_main_usernameEditText" />
+        android:id="@+id/etName" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -44,23 +43,23 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textcolor="@color/black"
-        android:id="@+id/activity_main_passwordEditText"
+
+        android:id="@+id/etPassword"
         />
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="19dp"
         android:text="Forget password"
+        android:id="@+id/tvForgotPassword"
         />
 
 
     <Button
-        android:id="@+id/btnLoginButton"
+        android:id="@+id/btnLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="login"
-
         android:textSize="22sp" />
 
 
